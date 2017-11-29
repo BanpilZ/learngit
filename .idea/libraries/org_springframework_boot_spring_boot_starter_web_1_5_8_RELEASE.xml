@@ -1,0 +1,41 @@
+<component name="libraryTable">
+  <library name="org.springframework.boot:spring-boot-starter-web:1.5.8.RELEASE" type="repository">
+    <properties maven-id="org.springframework.boot:spring-boot-starter-web:1.5.8.RELEASE" />
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/spring-boot-starter-web-1.5.8.RELEASE.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/spring-boot-starter-1.5.8.RELEASE.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/spring-boot-1.5.8.RELEASE.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/spring-boot-autoconfigure-1.5.8.RELEASE.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/spring-boot-starter-logging-1.5.8.RELEASE.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/logback-classic-1.1.11.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/logback-core-1.1.11.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/slf4j-api-1.7.22.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/jcl-over-slf4j-1.7.25.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/jul-to-slf4j-1.7.25.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/log4j-over-slf4j-1.7.25.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/spring-core-4.3.12.RELEASE.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/spring-boot-starter-tomcat-1.5.8.RELEASE.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/tomcat-embed-core-8.5.23.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/tomcat-annotations-api-8.5.23.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/tomcat-embed-el-8.5.23.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/tomcat-embed-websocket-8.5.23.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/hibernate-validator-5.3.5.Final.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/validation-api-1.1.0.Final.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/jboss-logging-3.3.0.Final.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/classmate-1.3.1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/jackson-databind-2.8.10.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/jackson-annotations-2.8.0.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/jackson-core-2.8.10.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/spring-web-4.3.12.RELEASE.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/spring-aop-4.3.12.RELEASE.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/spring-beans-4.3.12.RELEASE.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/spring-context-4.3.12.RELEASE.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/spring-webmvc-4.3.12.RELEASE.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/spring-expression-4.3.12.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/spring-boot-starter-web-1.5.8.RELEASE-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
