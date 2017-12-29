@@ -5,8 +5,14 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.banpil.demo</groupId>
-    <artifactId>firstIDEA</artifactId>
+    <artifactId>parent</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>common</module>
+        <module>message</module>
+        <module>biz</module>
+    </modules>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
