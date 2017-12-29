@@ -6,11 +6,21 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="firstIDEA" />
+        <module name="biz" />
+        <module name="common" />
+        <module name="message" />
+        <module name="orm" />
+        <module name="starter" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
+      <module name="biz" target="1.8" />
+      <module name="common" target="1.8" />
       <module name="firstIDEA" target="1.8" />
+      <module name="message" target="1.8" />
+      <module name="orm" target="1.8" />
+      <module name="parent" target="1.8" />
+      <module name="starter" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
