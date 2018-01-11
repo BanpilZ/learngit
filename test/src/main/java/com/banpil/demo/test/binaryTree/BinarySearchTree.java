@@ -100,13 +100,88 @@ public class BinarySearchTree<T extends Comparable> implements Tree<T> {
     }
 
     private String inOrder(BinaryNode<T> p) {
+        StringBuffer sb = new StringBuffer();
+        if (p != null) {
+            sb.append(inOrder(p.left));
+            sb.append(p.data + ",");
+            sb.append(inOrder(p.right));
+        }
+        return sb.toString();
+    }
 
-        return null;
+    public String inOrderUnrecurse() {
+        StringBuffer sb = new StringBuffer();
+        LinkedStack<BinaryNode<T>> stack = new LinkedStack<>();
+        BinaryNode<T> p = this.root;
+
+        while (p != null || !stack.isEmpty()) {
+            if (p != null) {
+                stack.push(p);
+                p = p.left;
+            } else {
+                p = stack.pop();
+                sb.append(p.data + ",");
+                p = p.right;
+            }
+        }
+
+        if (sb.length() > 0) {
+            return sb.substring(0, sb.length() - 1);
+        } else {
+            return sb.toString();
+        }
     }
 
     @Override
     public String postOrder() {
-        return null;
+        String sb = postOrder(root);
+        if (sb.length() > 0) {
+            sb = sb.substring(0, sb.length() - 1);
+        }
+        return sb.toString();
+    }
+
+    private String postOrder(BinaryNode<T> p) {
+        StringBuffer sb = new StringBuffer();
+
+        if (p != null) {
+            sb.append(postOrder(p.left));
+            sb.append(postOrder(p.right));
+            sb.append(p.data + ",");
+        }
+        return sb.toString();
+    }
+
+    public String postOrderUnrecurse() {
+        StringBuffer sb = new StringBuffer();
+        LinkedStack<BinaryNode<T>> stack = new LinkedStack<>();
+        BinaryNode<T> current = this.root;
+        BinaryNode<T> prev = this.root;
+
+        while (current != null || !stack.isEmpty()) {
+            while (current != null) {
+                stack.push(current);
+                current = current.left;
+            }
+
+            if (!stack.isEmpty()) {
+                BinaryNode<T> temp = stack.peek().right;
+                if (temp == null || temp == prev) {
+                    current = stack.pop();
+                    sb.append(current.data + ",");
+                    prev = current;
+                    current = null;
+                } else {
+                    current = temp;
+                }
+            }
+        }
+
+        if (sb.length() > 0) {
+            return sb.substring(0, sb.length() - 1);
+        } else {
+            return sb.toString();
+        }
     }
 
     @Override
