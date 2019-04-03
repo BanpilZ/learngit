@@ -12,6 +12,10 @@
         <module>common</module>
         <module>message</module>
         <module>biz</module>
+        <module>test</module>
+        <module>starter</module>
+        <module>orm</module>
+        <module>identity</module>
     </modules>
 
     <properties>
